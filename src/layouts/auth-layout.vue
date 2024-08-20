@@ -3,8 +3,8 @@ import { TEXT_CONSTANTS } from "~/constants";
 </script>
 
 <template>
-  <div class="h-screen w-screen bg-slate-100 auth-layout">
-    <div class="h-[60px] w-screen bg-slate-900 flex items-center shadow px-8">
+  <div class="h-screen w-full bg-slate-100 auth-layout">
+    <div class="h-[60px] w-full bg-slate-900 flex items-center shadow px-8 fixed top-0">
       <h1 class="text-md text-white font-bold uppercase">{{ TEXT_CONSTANTS.APP_TITLE }}</h1>
     </div>
 
