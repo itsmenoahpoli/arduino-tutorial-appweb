@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,
+select,
+textarea {
+  font-size: 13px !important;
+}
+
+.form {
+  @apply flex flex-col gap-y-4;
+}
+
+.form-group {
+  @apply flex flex-col gap-y-1;
+}
+
+.form-error-label {
+  @apply text-xs text-red-600;
+}
+
+.error-border {
+  @apply border border-red-700 rounded-lg;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
