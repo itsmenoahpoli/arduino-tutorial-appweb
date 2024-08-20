@@ -20,11 +20,4 @@ import { TEXT_CONSTANTS } from "~/constants";
   </div>
 </template>
 
-<style lang="scss" scoped>
-.auth-layout {
-  background: url("~/assets/auth-bg.jpeg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-</style>
+<style lang="scss" scoped></style>

@@ -1,3 +1,3 @@
 export const TEXT_CONSTANTS = {
-  APP_TITLE: "The roof and bed breakfast hotel",
+  APP_TITLE: "Arduino Tutorial App",
 };
