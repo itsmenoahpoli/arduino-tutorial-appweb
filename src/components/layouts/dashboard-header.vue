@@ -14,8 +14,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-[40px] w-full bg-[#002C42] text-xs text-white flex flex-row justify-between items-center px-10 !z-50">
-    <div class="w-full">
+  <div class="h-[40px] w-full bg-[#002C42] text-xs text-white flex flex-row justify-between items-center px-10 !z-50 fixed top-0">
+    <div class="w-full flex flex-row gap-x-3">
       <p>{{ currentTime }}</p>
     </div>
     <div class="w-full flex justify-end items-center gap-x-5">

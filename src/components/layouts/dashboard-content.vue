@@ -3,9 +3,14 @@
 <template>
   <div class="h-screen w-full content">
     <div class="h-full w-full">
-      <slot />
+      <RouterView />
     </div>
   </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.content {
+  width: calc(100% - 400px);
+  padding: 60px;
+}
+</style>
